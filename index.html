@@ -3,23 +3,48 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Loja Delivery</title>
-  <link rel="stylesheet" href="estilo.css">
+  <title>ZapFood - Delivery de Mercados</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
-    <h1>Bem-vindo à ZapFood!</h1>
+    <h1>ZapFood</h1>
     <nav>
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="contato.html">Contato</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#lojas">Lojas</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><a href="#login">Login</a></li>
       </ul>
     </nav>
   </header>
 
-  <section class="intro">
-    <h2>Pedidos rápidos e entregas rápidas!</h2>
-    <p>Escolha entre uma variedade de produtos e receba no conforto de sua casa. Simples, rápido e prático!</p>
+  <section id="home">
+    <h2>Bem-vindo ao ZapFood!</h2>
+    <p>Peça delivery dos melhores mercados da sua cidade.</p>
+  </section>
+
+  <section id="lojas">
+    <h2>Lojas Disponíveis</h2>
+    <div class="loja">
+      <h3>Mercado Central</h3>
+      <p>Entrega rápida e produtos frescos.</p>
+      <button>Ver Produtos</button>
+    </div>
+    <div class="loja">
+      <h3>Supermercado BomPreço</h3>
+      <p>Promoções imperdíveis todos os dias!</p>
+      <button>Ver Produtos</button>
+    </div>
+  </section>
+
+  <section id="login">
+    <h2>Login</h2>
+    <form>
+      <input type="text" placeholder="Usuário" required>
+      <input type="password" placeholder="Senha" required>
+      <button type="submit">Entrar</button>
+    </form>
   </section>
 
   <footer>
