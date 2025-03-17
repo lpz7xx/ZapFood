@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo para o corpo do site */
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('imagens/fundo-delivery.jpg'); /* Caminho da imagem de fundo */
+  background-size: cover; /* A imagem cobre toda a tela */
+  background-position: center; /* A imagem ficará centralizada */
+  background-repeat: no-repeat; /* A imagem não se repetirá */
+  color: white; /* Define a cor do texto como branca */
+  text-align: center;
+}
+
+/* Estilo para o cabeçalho */
+header {
+  background-color: rgba(0, 0, 0, 0.6); /* Fundo semi-transparente */
+  padding: 20px;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #f39c12;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #f39c12;
+}
+
+/* Estilo da seção principal (introdução) */
+.intro {
+  background-color: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente para contraste */
+  padding: 40px 20px;
+  border-radius: 10px;
+  margin: 40px auto;
+  max-width: 800px;
+}
+
+.intro h2 {
+  font-size: 2.5rem;
+  color: #f39c12;
+}
+
+.intro p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+/* Estilo da seção "Sobre Nós" */
+.sobre {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 40px auto;
+  max-width: 800px;
+  border-radius: 10px;
+}
+
+.sobre h2 {
+  font-size: 2rem;
+  color: #f39c12;
+}
+
+.sobre p {
+  font-size: 1.2rem;
+}
+
+/* Estilo da seção "Cardápio" */
+.cardapio {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 40px auto;
+  max-width: 800px;
+  border-radius: 10px;
+}
+
+.cardapio h2 {
+  font-size: 2rem;
+  color: #f39c12;
+}
+
+.cardapio ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cardapio ul li {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+/* Estilo da seção "Contato" */
+.contato {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 40px auto;
+  max-width: 800px;
+  border-radius: 10px;
+}
+
+.contato h2 {
+  font-size: 2rem;
+  color: #f39c12;
+}
+
+.contato form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contato label {
+  margin-top: 10px;
+}
+
+.contato input, .contato textarea {
+  padding: 10px;
+  margin-top: 5px;
+  width: 80%;
+  font-size: 1rem;
+}
+
+.contato button {
+  background-color: #f39c12;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.contato button:hover {
+  background-color: #e67e22;
+}
+
+/* Estilo do rodapé */
+footer {
+  background-color: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente */
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  color: white;
+  font-size: 1rem;
+}
