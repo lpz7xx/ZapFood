@@ -1,54 +1,93 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ZapFood - Delivery de Mercados</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZapFood</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background: transparent;
+            color: black;
+            padding: 15px;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: 
+            padding: 0;
+            background: #fff;
+            margin: 0;
+        }
+        nav ul li {
+            padding: 15px;
+            cursor: pointer;
+        }
+        .banner {
+            background: url('https://s11.aconvert.com/convert/p3r68-cdx67/s9mg9-fanul.jpg') no-repeat center center/cover;
+            color: black;
+            padding: 50px 20px;
+        }
+        .destaques {
+            margin: 20px;
+        }
+        .ofertas {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .card {
+            background: #f8f8f8;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        footer {
+            background: #tranparent;
+            color: transparent;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>ZapFood</h1>
+    <header>
+        <h1>ZapFood</h1>
+        <input type="text" placeholder="Buscar restaurantes ou mercados...">
+        <button>Buscar</button>
+    </header>
     <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#lojas">Lojas</a></li>
-        <li><a href="#contato">Contato</a></li>
-        <li><a href="#login">Login</a></li>
-      </ul>
+        <ul>
+            <li>Mercados</li>
+            <li>Restaurantes</li>
+            <li>Bebidas</li>
+        </ul>
     </nav>
-  </header>
-
-  <section id="home">
-    <h2>Bem-vindo ao ZapFood!</h2>
-    <p>Peça delivery dos melhores mercados da sua cidade.</p>
-  </section>
-
-  <section id="lojas">
-    <h2>Lojas Disponíveis</h2>
-    <div class="loja">
-      <h3>Mercado Central</h3>
-      <p>Entrega rápida e produtos frescos.</p>
-      <button>Ver Produtos</button>
-    </div>
-    <div class="loja">
-      <h3>Supermercado BomPreço</h3>
-      <p>Promoções imperdíveis todos os dias!</p>
-      <button>Ver Produtos</button>
-    </div>
-  </section>
-
-  <section id="login">
-    <h2>Login</h2>
-    <form>
-      <input type="text" placeholder="Usuário" required>
-      <input type="password" placeholder="Senha" required>
-      <button type="submit">Entrar</button>
-    </form>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 ZapFood | Todos os direitos reservados.</p>
-  </footer>
+    <main>
+        <section class="banner">
+            <h2>                                                      </h2>
+        </section>
+        <section class="destaques">
+            <h2>Entregamos tudo o que precisa na porta da sua casa!</h2>
+            <div class="ofertas">
+                <div class="card">Oferta 1</div>
+                <div class="card">Oferta 2</div>
+                <div class="card">Oferta 3</div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 ZapFood - Todos os direitos reservados</p>
+    </footer>
+    <script>
+        document.querySelector('button').addEventListener('click', function() {
+            alert('Função de busca ainda não implementada!');
+        });
+    </script>
 </body>
 </html>
